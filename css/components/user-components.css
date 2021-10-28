@@ -1,8 +1,8 @@
 .user-component {
-  display: flex;
-  flex-direction: column;
-  margin: 15px;
+  justify-content: space-between;
 }
+
+.user-component,
 .user-component__column {
   display: flex;
   align-items: center;
@@ -18,9 +18,45 @@
 .user-component__title {
   font-weight: 600;
   font-size: 18px;
+  color: black;
 }
 
 .user-component__subtitle {
   margin-top: 9px;
   font-size: 16px;
+}
+
+.user-component__avatar--xl {
+  height: 80px;
+  width: 80px;
+  border-radius: 30px;
+}
+
+.user-component__avatar--sm {
+  height: 60px;
+  width: 60px;
+  border-radius: 24px;
+}
+
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__column:last-child i {
+  margin-left: 3px;
+}
+
+.user-component__column--timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.user-component__column--timeline-time {
+  margin-bottom: 5px;
 }
