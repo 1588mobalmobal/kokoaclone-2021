@@ -7,6 +7,9 @@
   display: flex;
   align-items: center;
 }
+.user-component__column {
+  margin-bottom: 25px;
+}
 
 .user-component__avatar {
   height: 70px;
@@ -59,4 +62,16 @@
 
 .user-component__column--timeline-time {
   margin-bottom: 5px;
+}
+
+.user-component__warning {
+  width: 14px;
+  height: 14px;
+  border: 2px solid tomato;
+  display: inline-block;
+  text-align: center;
+  border-radius: 100%;
+  color: tomato;
+  font-weight: 600;
+  margin-left: 3px;
 }
